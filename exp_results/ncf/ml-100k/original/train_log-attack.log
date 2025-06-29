@@ -1,0 +1,41 @@
+[2025-06-29 20:22:04] attack: attack
+[2025-06-29 20:22:04] target_model: final_model.pth
+[2025-06-29 20:22:04] method: original
+[2025-06-29 20:22:04] model: ncf
+[2025-06-29 20:22:04] dataset_path: data/datasets/
+[2025-06-29 20:22:04] dataset: ml-100k
+[2025-06-29 20:22:04] device: cuda:0
+[2025-06-29 20:22:04] save_path: ./exp_results/ncf/ml-100k/original/
+[2025-06-29 20:22:04] loading user matrix...
+[2025-06-29 20:22:04] loading label user dict...
+[2025-06-29 20:22:04] len(user_list) = 670 > 273
+[2025-06-29 20:22:04] len(user_list) = 273 = 273
+[2025-06-29 20:22:04] constructing dataset...
+[2025-06-29 20:22:04] label 0 length = 273
+[2025-06-29 20:22:04] label 1 length = 273
+[2025-06-29 20:22:05] model MLP time 0 acc = 0.6832527105921602
+[2025-06-29 20:22:05] model MLP time 0 precision = 0.6840476190476191
+[2025-06-29 20:22:05] model MLP time 0 recall = 0.6848484848484848
+[2025-06-29 20:22:05] model MLP time 0 auc = 0.7351441689623508
+[2025-06-29 20:22:06] model MLP time 1 acc = 0.681351125938282
+[2025-06-29 20:22:06] model MLP time 1 precision = 0.6851502759912897
+[2025-06-29 20:22:06] model MLP time 1 recall = 0.6703703703703703
+[2025-06-29 20:22:06] model MLP time 1 auc = 0.7345148454239363
+[2025-06-29 20:22:06] model MLP time 2 acc = 0.6629691409507923
+[2025-06-29 20:22:06] model MLP time 2 precision = 0.6464539124668434
+[2025-06-29 20:22:06] model MLP time 2 recall = 0.7251178451178452
+[2025-06-29 20:22:06] model MLP time 2 auc = 0.7291447811447812
+[2025-06-29 20:22:06] accuracy = 0.6759, precision = 0.6719, recall = 0.6934, auc = 0.7329
+[2025-06-29 20:22:07] model XGBoost time 0 acc = 0.60814011676397
+[2025-06-29 20:22:07] model XGBoost time 0 precision = 0.6067230222448777
+[2025-06-29 20:22:07] model XGBoost time 0 recall = 0.6080808080808081
+[2025-06-29 20:22:07] model XGBoost time 0 auc = 0.6614949494949496
+[2025-06-29 20:22:07] model XGBoost time 1 acc = 0.60814011676397
+[2025-06-29 20:22:07] model XGBoost time 1 precision = 0.6067230222448777
+[2025-06-29 20:22:07] model XGBoost time 1 recall = 0.6080808080808081
+[2025-06-29 20:22:07] model XGBoost time 1 auc = 0.6614949494949496
+[2025-06-29 20:22:07] model XGBoost time 2 acc = 0.60814011676397
+[2025-06-29 20:22:07] model XGBoost time 2 precision = 0.6067230222448777
+[2025-06-29 20:22:07] model XGBoost time 2 recall = 0.6080808080808081
+[2025-06-29 20:22:07] model XGBoost time 2 auc = 0.6614949494949496
+[2025-06-29 20:22:07] accuracy = 0.6081, precision = 0.6067, recall = 0.6081, auc = 0.6615
